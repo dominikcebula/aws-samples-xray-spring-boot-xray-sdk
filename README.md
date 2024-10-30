@@ -1,9 +1,8 @@
-# AWS X-Ray setup with sample Spring Boot Application using X-Ray SDK for Java with Auto-instrumentation
+# AWS X-Ray setup with sample Spring Boot Application using X-Ray SDK for Java
 
 ## Introduction
 
-This repository contains AWS X-Ray setup with sample Spring Boot Application using X-Ray SDK for Java with
-Auto-instrumentation
+This repository contains AWS X-Ray setup with sample Spring Boot Application using X-Ray SDK for Java.
 
 ## Usage
 
