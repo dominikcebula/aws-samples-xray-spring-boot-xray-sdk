@@ -17,7 +17,7 @@ This repository contains AWS X-Ray setup with sample Spring Boot Application usi
 ```shell
 eksctl utils associate-iam-oidc-provider \
   --region=eu-central-1 \
-  --cluster=cluster-04 \
+  --cluster=cluster-01 \
   --approve
 ```
 
@@ -25,7 +25,7 @@ eksctl utils associate-iam-oidc-provider \
 eksctl create iamserviceaccount \
       --name xray-daemon \
       --namespace default \
-      --cluster cluster-04 \
+      --cluster cluster-01 \
       --attach-policy-arn arn:aws:iam::aws:policy/AWSXRayDaemonWriteAccess \
       --approve \
       --override-existing-serviceaccounts
