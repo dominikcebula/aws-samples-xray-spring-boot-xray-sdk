@@ -9,6 +9,6 @@ import org.springframework.context.annotation.Configuration;
 public class WebConfig {
     @Bean
     public Filter tracingFilter() {
-        return new AWSXRayServletFilter("Scorekeep");
+        return new AWSXRayServletFilter("aws-xray-spring-boot-sample");
     }
 }
