@@ -40,11 +40,11 @@ mvn clean install
 4. Build and push docker image:
 
 ```shell
-02_build_image.sh
+./02_build_image.sh
 ```
 
 ```shell
-03_push_image.sh
+./03_push_image.sh
 ```
 
 5. Deploy Service Account
@@ -62,7 +62,7 @@ mvn clean install
 7. Deploy App
 
 ```shell
-06_deploy_app.sh
+./06_deploy_app.sh
 ```
 
 ## Author
